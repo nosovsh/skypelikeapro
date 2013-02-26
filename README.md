@@ -33,7 +33,7 @@ Skype cleans odd tables at bootstrap, so we need to create log table each time S
 
 Notes
 ----------------
-This app patches Skype db, so don't forget to backup it, because I have no
+* This app patches Skype db, so don't forget to backup it, because I have no
 responsibilities for any damage this app can make to you, your computer, your life and your death.
-
-All logged messages are deleted every time you launch Skype.
+* All logged messages are deleted every time you launch Skype.
+* There some time lag before editing message and it's appearing in log.
