@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # coding=utf-8
+
+__author__ = "Alexander Nosov"
+__email__ = "trashgenerator@gmail.com"
+
 import os
 import sqlite3
 import argparse
