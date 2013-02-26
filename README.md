@@ -6,22 +6,25 @@ Currently it is available only for Mac.
 
 Usage
 ----------------
-Download "skypelikeapro.py" script. Now you should run Skype via
-    ./skypelikeapro.py
+* Download "skypelikeapro.py" script. Now you should run Skype via
+
+        ./skypelikeapro.py
 instead of original Skype executable.
 
-Also you can run this script if Skype already started.
+* Also you can run this script if Skype already started.
 
-Also you can build app with
-    python setup.py py2app
+* Also you can build app with
+
+        python setup.py py2app
 put it in your "Applications" folder and run as normal app.
 
-To show deleted and edited messages run:
-    ./skypelikeapro.py --show
-You'll see last 10 messages.
-If you want more, just open Skype db and explore "skypelog" table.
+* To show deleted and edited messages run:
 
-Realisation
+        ./skypelikeapro.py --show
+You'll see last 10 messages.
+* If you want more, just open Skype db and explore "skypelog" table.
+
+Realization
 ----------------
 Skype stores all message history in sqlite db. Every time somebody edits or deletes
 his message, Skype updates message table. This application inserts sql trigger
