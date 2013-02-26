@@ -3,6 +3,7 @@
 
 __author__ = "Alexander Nosov"
 __email__ = "trashgenerator@gmail.com"
+__credits__ = "Kristina Lakis"
 
 import os
 import sqlite3
