@@ -6,16 +6,20 @@ Currently it is available only for Mac.
 
 Usage
 ----------------
-Download "Skype like a pro.app" and copy it to your "Applications" folder.
-Now you should run this application instead of Skype executable to launch Skype.
+Download "skypelikeapro.py" script. Now you should run Skype via
+    ./skypelikeapro.py
+instead of original Skype executable.
 
-To show deleted and edited messages download "skypelikeapro.py" script and run:
+Also you can run this script if Skype already started.
+
+Also you can build app with
+    python setup.py py2app
+put it in your "Applications" folder and run as normal app.
+
+To show deleted and edited messages run:
     ./skypelikeapro.py --show
 You'll see last 10 messages.
 If you want more, just open Skype db and explore "skypelog" table.
-
-Also you can run Skype without "Skype like a pro.app", just run
-    ./skypelikeapro.py
 
 Realisation
 ----------------
